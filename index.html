@@ -1,0 +1,4044 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LIVN. — Better Equipment. Better Living.</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= ANNOUNCEMENT ================= -->
+
+<div class="announcement-bar">
+    <div class="announcement-track">
+        <span>FREE SHIPPING ON ORDERS OVER ₹5,000</span>
+        <span>DESIGNED FOR MODERN LIVING</span>
+        <span>NEW SEASON — NOW LIVE</span>
+    </div>
+</div>
+
+
+<!-- ================= HEADER ================= -->
+
+<header class="site-header">
+
+    <a href="#home" class="brand-logo">LIVN<span>.</span></a>
+
+    <nav class="desktop-nav">
+        <a href="#products">Shop</a>
+        <a href="#categories">Categories</a>
+        <a href="#new-arrivals">New Arrivals</a>
+        <a href="#best-sellers">Best Sellers</a>
+        <a href="#journal">Journal</a>
+    </nav>
+
+    <div class="header-actions">
+
+        <button class="header-btn" id="searchBtn" aria-label="Search">
+            SEARCH
+        </button>
+
+        <button class="header-icon" id="accountBtn" aria-label="Account">
+            ♙
+        </button>
+
+        <button class="header-icon cart-trigger" id="cartBtn" aria-label="Cart">
+            BAG
+            <span class="cart-count">0</span>
+        </button>
+
+        <button class="menu-btn" id="menuBtn">
+            <span></span>
+            <span></span>
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- ================= MOBILE MENU ================= -->
+
+<div class="mobile-menu" id="mobileMenu">
+
+    <div class="mobile-menu-inner">
+
+        <a href="#products">SHOP</a>
+        <a href="#categories">CATEGORIES</a>
+        <a href="#new-arrivals">NEW ARRIVALS</a>
+        <a href="#best-sellers">BEST SELLERS</a>
+        <a href="#journal">JOURNAL</a>
+
+    </div>
+
+</div>
+
+
+<!-- ================= SEARCH ================= -->
+
+<div class="search-overlay" id="searchOverlay">
+
+    <div class="search-box">
+
+        <button class="search-close" id="searchClose">×</button>
+
+        <p>SEARCH LIVN.</p>
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search products..."
+            autocomplete="off"
+        >
+
+        <div id="searchResults"></div>
+
+    </div>
+
+</div>
+
+
+<!-- ================= HERO ================= -->
+
+<main>
+
+<section class="hero-section" id="home">
+
+    <div class="hero-media">
+
+        <div class="hero-slide active">
+            <img
+                src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1800&q=90"
+                alt="Modern fitness equipment"
+            >
+        </div>
+
+        <div class="hero-slide">
+            <img
+                src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1800&q=90"
+                alt="Modern interior"
+            >
+        </div>
+
+        <div class="hero-slide">
+            <img
+                src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=1800&q=90"
+                alt="Modern headphones"
+            >
+        </div>
+
+        <div class="hero-slide">
+            <img
+                src="https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=1800&q=90"
+                alt="Outdoor equipment"
+            >
+        </div>
+
+        <div class="hero-gradient"></div>
+
+    </div>
+
+
+    <div class="hero-content">
+
+        <div class="hero-label">
+            <span></span>
+            DESIGNED FOR MODERN LIVING
+        </div>
+
+        <h1>
+            EQUIPMENT<br>
+            FOR BETTER<br>
+            <em>LIVING.</em>
+        </h1>
+
+        <p>
+            Thoughtfully designed essentials for the way
+            you live, work, move and recharge.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#products" class="primary-btn">
+                SHOP COLLECTION <span>→</span>
+            </a>
+
+            <a href="#new-arrivals" class="secondary-btn">
+                NEW ARRIVALS
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-bottom">
+
+        <div>
+            <span>SCROLL TO EXPLORE</span>
+            <div class="scroll-line"></div>
+        </div>
+
+        <div class="hero-counter">
+            <strong id="heroCurrent">01</strong>
+            <span>/</span>
+            <span>04</span>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CATEGORIES ================= -->
+
+<section class="categories-section section-padding" id="categories">
+
+    <div class="section-heading">
+
+        <div>
+            <span class="eyebrow">EXPLORE</span>
+            <h2>SHOP BY<br><em>CATEGORY.</em></h2>
+        </div>
+
+        <p>
+            Essentials selected for every part
+            of modern everyday living.
+        </p>
+
+    </div>
+
+
+    <div class="category-grid">
+
+        <article class="category-card" data-category="fitness">
+
+            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=900&q=85">
+
+            <div class="category-overlay">
+                <span>01</span>
+                <h3>FITNESS</h3>
+                <button>EXPLORE →</button>
+            </div>
+
+        </article>
+
+
+        <article class="category-card" data-category="home">
+
+            <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=85">
+
+            <div class="category-overlay">
+                <span>02</span>
+                <h3>HOME</h3>
+                <button>EXPLORE →</button>
+            </div>
+
+        </article>
+
+
+        <article class="category-card" data-category="tech">
+
+            <img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&w=900&q=85">
+
+            <div class="category-overlay">
+                <span>03</span>
+                <h3>TECH</h3>
+                <button>EXPLORE →</button>
+            </div>
+
+        </article>
+
+
+        <article class="category-card" data-category="outdoor">
+
+            <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=900&q=85">
+
+            <div class="category-overlay">
+                <span>04</span>
+                <h3>OUTDOOR</h3>
+                <button>EXPLORE →</button>
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PRODUCTS ================= -->
+
+<section class="products-section section-padding" id="products">
+
+    <div class="section-heading product-heading">
+
+        <div>
+            <span class="eyebrow">THE COLLECTION</span>
+            <h2>ESSENTIALS<br><em>FOR EVERYDAY.</em></h2>
+        </div>
+
+        <div class="filter-buttons">
+
+            <button class="filter active" data-filter="all">ALL</button>
+            <button class="filter" data-filter="fitness">FITNESS</button>
+            <button class="filter" data-filter="home">HOME</button>
+            <button class="filter" data-filter="tech">TECH</button>
+            <button class="filter" data-filter="outdoor">OUTDOOR</button>
+
+        </div>
+
+    </div>
+
+
+    <div class="products-grid" id="productGrid">
+
+
+        <!-- PRODUCT 1 -->
+
+        <article class="product-card" data-category="fitness" data-name="Core Trainer">
+
+            <div class="product-image">
+
+                <span class="product-badge">BESTSELLER</span>
+
+                <button class="wishlist-btn" data-name="CORE TRAINER">♡</button>
+
+                <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&w=900&q=85">
+
+                <button class="quick-view">QUICK VIEW</button>
+
+            </div>
+
+            <div class="product-info">
+
+                <div>
+                    <h3>CORE TRAINER</h3>
+                    <p>Fitness / Training</p>
+                </div>
+
+                <strong>₹4,999</strong>
+
+            </div>
+
+            <button class="add-cart"
+                    data-name="CORE TRAINER"
+                    data-price="4999"
+                    data-image="https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&w=900&q=85">
+                ADD TO BAG
+            </button>
+
+        </article>
+
+
+        <!-- PRODUCT 2 -->
+
+        <article class="product-card" data-category="home" data-name="Arc Lamp">
+
+            <div class="product-image">
+
+                <span class="product-badge">NEW</span>
+
+                <button class="wishlist-btn" data-name="ARC LAMP">♡</button>
+
+                <img src="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=900&q=85">
+
+                <button class="quick-view">QUICK VIEW</button>
+
+            </div>
+
+            <div class="product-info">
+
+                <div>
+                    <h3>ARC LAMP</h3>
+                    <p>Home / Lighting</p>
+                </div>
+
+                <strong>₹7,499</strong>
+
+            </div>
+
+            <button class="add-cart"
+                    data-name="ARC LAMP"
+                    data-price="7499"
+                    data-image="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=900&q=85">
+                ADD TO BAG
+            </button>
+
+        </article>
+
+
+        <!-- PRODUCT 3 -->
+
+        <article class="product-card" data-category="tech" data-name="Studio Headphones">
+
+            <div class="product-image">
+
+                <span class="product-badge">NEW</span>
+
+                <button class="wishlist-btn" data-name="STUDIO HEADPHONES">♡</button>
+
+                <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=85">
+
+                <button class="quick-view">QUICK VIEW</button>
+
+            </div>
+
+            <div class="product-info">
+
+                <div>
+                    <h3>STUDIO HEADPHONES</h3>
+                    <p>Tech / Audio</p>
+                </div>
+
+                <strong>₹9,999</strong>
+
+            </div>
+
+            <button class="add-cart"
+                    data-name="STUDIO HEADPHONES"
+                    data-price="9999"
+                    data-image="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=85">
+                ADD TO BAG
+            </button>
+
+        </article>
+
+
+        <!-- PRODUCT 4 -->
+
+        <article class="product-card" data-category="outdoor" data-name="Trail Pack">
+
+            <div class="product-image">
+
+                <span class="product-badge">POPULAR</span>
+
+                <button class="wishlist-btn" data-name="TRAIL PACK">♡</button>
+
+                <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=900&q=85">
+
+                <button class="quick-view">QUICK VIEW</button>
+
+            </div>
+
+            <div class="product-info">
+
+                <div>
+                    <h3>TRAIL PACK</h3>
+                    <p>Outdoor / Travel</p>
+                </div>
+
+                <strong>₹5,499</strong>
+
+            </div>
+
+            <button class="add-cart"
+                    data-name="TRAIL PACK"
+                    data-price="5499"
+                    data-image="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=900&q=85">
+                ADD TO BAG
+            </button>
+
+        </article>
+
+
+        <!-- PRODUCT 5 -->
+
+        <article class="product-card" data-category="fitness" data-name="Flex Mat">
+
+            <div class="product-image">
+
+                <button class="wishlist-btn" data-name="FLEX MAT">♡</button>
+
+                <img src="https://images.unsplash.com/photo-1592432678016-e910b452f9a2?auto=format&fit=crop&w=900&q=85">
+
+                <button class="quick-view">QUICK VIEW</button>
+
+            </div>
+
+            <div class="product-info">
+
+                <div>
+                    <h3>FLEX MAT</h3>
+                    <p>Fitness / Wellness</p>
+                </div>
+
+                <strong>₹2,499</strong>
+
+            </div>
+
+            <button class="add-cart"
+                    data-name="FLEX MAT"
+                    data-price="2499"
+                    data-image="https://images.unsplash.com/photo-1592432678016-e910b452f9a2?auto=format&fit=crop&w=900&q=85">
+                ADD TO BAG
+            </button>
+
+        </article>
+
+
+        <!-- PRODUCT 6 -->
+
+        <article class="product-card" data-category="home" data-name="Daily Chair">
+
+            <div class="product-image">
+
+                <button class="wishlist-btn" data-name="DAILY CHAIR">♡</button>
+
+                <img src="https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=900&q=85">
+
+                <button class="quick-view">QUICK VIEW</button>
+
+            </div>
+
+            <div class="product-info">
+
+                <div>
+                    <h3>DAILY CHAIR</h3>
+                    <p>Home / Furniture</p>
+                </div>
+
+                <strong>₹12,499</strong>
+
+            </div>
+
+            <button class="add-cart"
+                    data-name="DAILY CHAIR"
+                    data-price="12499"
+                    data-image="https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=900&q=85">
+                ADD TO BAG
+            </button>
+
+        </article>
+
+
+        <!-- PRODUCT 7 -->
+
+        <article class="product-card" data-category="tech" data-name="Desk Speaker">
+
+            <div class="product-image">
+
+                <span class="product-badge">LIMITED</span>
+
+                <button class="wishlist-btn" data-name="DESK SPEAKER">♡</button>
+
+                <img src="https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=900&q=85">
+
+                <button class="quick-view">QUICK VIEW</button>
+
+            </div>
+
+            <div class="product-info">
+
+                <div>
+                    <h3>DESK SPEAKER</h3>
+                    <p>Tech / Audio</p>
+                </div>
+
+                <strong>₹6,999</strong>
+
+            </div>
+
+            <button class="add-cart"
+                    data-name="DESK SPEAKER"
+                    data-price="6999"
+                    data-image="https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=900&q=85">
+                ADD TO BAG
+            </button>
+
+        </article>
+
+
+        <!-- PRODUCT 8 -->
+
+        <article class="product-card" data-category="outdoor" data-name="Travel Bottle">
+
+            <div class="product-image">
+
+                <button class="wishlist-btn" data-name="TRAVEL BOTTLE">♡</button>
+
+                <img src="https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=900&q=85">
+
+                <button class="quick-view">QUICK VIEW</button>
+
+            </div>
+
+            <div class="product-info">
+
+                <div>
+                    <h3>TRAVEL BOTTLE</h3>
+                    <p>Outdoor / Everyday</p>
+                </div>
+
+                <strong>₹1,999</strong>
+
+            </div>
+
+            <button class="add-cart"
+                    data-name="TRAVEL BOTTLE"
+                    data-price="1999"
+                    data-image="https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=900&q=85">
+                ADD TO BAG
+            </button>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- ================= NEW ARRIVALS ================= -->
+
+<section class="editorial-section" id="new-arrivals">
+
+    <div class="editorial-image">
+
+        <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1500&q=90">
+
+    </div>
+
+    <div class="editorial-content">
+
+        <span class="eyebrow">NEW ARRIVALS</span>
+
+        <h2>
+            NEW<br>
+            <em>THINKING.</em>
+        </h2>
+
+        <p>
+            Designed around your everyday.
+            Better materials, better details,
+            and less unnecessary noise.
+        </p>
+
+        <a href="#products" class="text-link">
+            EXPLORE NEW ARRIVALS →
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= BEST SELLERS ================= -->
+
+<section class="best-section section-padding" id="best-sellers">
+
+    <div class="section-heading">
+
+        <div>
+            <span class="eyebrow">MOST LOVED</span>
+            <h2>BEST<br><em>SELLERS.</em></h2>
+        </div>
+
+        <p>
+            Everyday essentials chosen by the LIVN.
+            community.
+        </p>
+
+    </div>
+
+
+    <div class="mini-products">
+
+        <article>
+            <div>
+                <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=700&q=85">
+            </div>
+            <span>01</span>
+            <h3>STUDIO HEADPHONES</h3>
+            <p>₹9,999</p>
+        </article>
+
+        <article>
+            <div>
+                <img src="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=700&q=85">
+            </div>
+            <span>02</span>
+            <h3>ARC LAMP</h3>
+            <p>₹7,499</p>
+        </article>
+
+        <article>
+            <div>
+                <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=700&q=85">
+            </div>
+            <span>03</span>
+            <h3>TRAIL PACK</h3>
+            <p>₹5,499</p>
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- ================= STATEMENT ================= -->
+
+<section class="statement-section">
+
+    <div class="statement-number">01</div>
+
+    <h2>
+        LESS,<br>
+        <em>BUT BETTER.</em>
+    </h2>
+
+    <p>
+        We believe the best products don't shout.
+        They simply work beautifully.
+    </p>
+
+</section>
+
+
+<!-- ================= JOURNAL ================= -->
+
+<section class="journal-section section-padding" id="journal">
+
+    <div class="section-heading">
+
+        <div>
+            <span class="eyebrow">THE JOURNAL</span>
+            <h2>IDEAS FOR<br><em>BETTER LIVING.</em></h2>
+        </div>
+
+    </div>
+
+
+    <div class="journal-grid">
+
+        <article class="journal-card">
+
+            <div>
+                <img src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=1000&q=85">
+            </div>
+
+            <span>01 — HOME</span>
+
+            <h3>
+                HOW TO CREATE A
+                CALMER WORKSPACE
+            </h3>
+
+            <a href="#">READ STORY →</a>
+
+        </article>
+
+
+        <article class="journal-card">
+
+            <div>
+                <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=1000&q=85">
+            </div>
+
+            <span>02 — FITNESS</span>
+
+            <h3>
+                BUILDING A BETTER
+                DAILY MOVEMENT ROUTINE
+            </h3>
+
+            <a href="#">READ STORY →</a>
+
+        </article>
+
+
+        <article class="journal-card">
+
+            <div>
+                <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1000&q=85">
+            </div>
+
+            <span>03 — DESIGN</span>
+
+            <h3>
+                WHY LESS DESIGN
+                CAN MEAN MORE
+            </h3>
+
+            <a href="#">READ STORY →</a>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- ================= NEWSLETTER ================= -->
+
+<section class="newsletter-section">
+
+    <div>
+
+        <span class="eyebrow">STAY IN THE LOOP</span>
+
+        <h2>
+            BETTER THINGS.<br>
+            <em>STRAIGHT TO YOU.</em>
+        </h2>
+
+    </div>
+
+    <form id="newsletterForm">
+
+        <input
+            type="email"
+            placeholder="Your email address"
+            required
+        >
+
+        <button type="submit">JOIN →</button>
+
+    </form>
+
+</section>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-top">
+
+        <div>
+
+            <a href="#home" class="footer-logo">LIVN.</a>
+
+            <p>
+                Better equipment.<br>
+                Better living.
+            </p>
+
+        </div>
+
+        <div class="footer-links">
+
+            <div>
+                <span>SHOP</span>
+                <a href="#products">All Products</a>
+                <a href="#new-arrivals">New Arrivals</a>
+                <a href="#best-sellers">Best Sellers</a>
+            </div>
+
+            <div>
+                <span>ABOUT</span>
+                <a href="#journal">Journal</a>
+                <a href="#">About LIVN.</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div>
+                <span>FOLLOW</span>
+                <a href="#">Instagram</a>
+                <a href="#">Pinterest</a>
+                <a href="#">YouTube</a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <span>© 2026 LIVN. ALL RIGHTS RESERVED.</span>
+
+        <span>MADE FOR MODERN LIVING.</span>
+
+    </div>
+
+</footer>
+
+
+<!-- ================= CART ================= -->
+
+<div class="overlay" id="cartOverlay">
+
+    <aside class="cart-panel">
+
+        <div class="cart-header">
+
+            <div>
+                <span class="eyebrow">YOUR BAG</span>
+                <h2>SHOPPING BAG</h2>
+            </div>
+
+            <button id="cartClose">×</button>
+
+        </div>
+
+
+        <div class="cart-items" id="cartItems">
+
+            <div class="empty-cart">
+                <div class="empty-icon">○</div>
+                <h3>YOUR BAG IS EMPTY</h3>
+                <p>Add something beautiful.</p>
+            </div>
+
+        </div>
+
+
+        <div class="cart-footer">
+
+            <div class="cart-total-row">
+                <span>SUBTOTAL</span>
+                <strong id="cartTotal">₹0</strong>
+            </div>
+
+            <!-- CHECKOUT ONLY EXISTS INSIDE CART -->
+
+            <button class="checkout-button" id="checkoutButton">
+                PROCEED TO CHECKOUT <span>→</span>
+            </button>
+
+            <button class="continue-shopping" id="continueShopping">
+                CONTINUE SHOPPING
+            </button>
+
+        </div>
+
+    </aside>
+
+</div>
+
+
+<!-- ================= CHECKOUT ================= -->
+
+<div class="checkout-overlay" id="checkoutOverlay">
+
+    <div class="checkout-container">
+
+        <button class="checkout-close" id="checkoutClose">×</button>
+
+
+        <div class="checkout-left">
+
+            <div class="checkout-title">
+
+                <span class="eyebrow">LIVN. CHECKOUT</span>
+
+                <h2>COMPLETE<br><em>YOUR ORDER.</em></h2>
+
+            </div>
+
+
+            <form id="checkoutForm">
+
+                <div class="checkout-block">
+
+                    <h3>01 — CONTACT</h3>
+
+                    <div class="form-grid">
+
+                        <input
+                            type="text"
+                            id="fullName"
+                            placeholder="Full name"
+                            required
+                        >
+
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="Email address"
+                            required
+                        >
+
+                        <input
+                            type="tel"
+                            id="phone"
+                            placeholder="Phone number"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="checkout-block">
+
+                    <h3>02 — DELIVERY</h3>
+
+                    <div class="form-grid">
+
+                        <input
+                            type="text"
+                            id="address"
+                            placeholder="Street address"
+                            required
+                        >
+
+                        <input
+                            type="text"
+                            id="city"
+                            placeholder="City"
+                            required
+                        >
+
+                        <input
+                            type="text"
+                            id="state"
+                            placeholder="State"
+                            required
+                        >
+
+                        <input
+                            type="text"
+                            id="pincode"
+                            placeholder="PIN code"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="checkout-block">
+
+                    <h3>03 — PAYMENT</h3>
+
+                    <div class="payment-options">
+
+                        <label class="payment-option active">
+
+                            <input
+                                type="radio"
+                                name="payment"
+                                value="upi"
+                                checked
+                            >
+
+                            <span>UPI</span>
+
+                        </label>
+
+
+                        <label class="payment-option">
+
+                            <input
+                                type="radio"
+                                name="payment"
+                                value="card"
+                            >
+
+                            <span>CARD</span>
+
+                        </label>
+
+
+                        <label class="payment-option">
+
+                            <input
+                                type="radio"
+                                name="payment"
+                                value="cod"
+                            >
+
+                            <span>COD</span>
+
+                        </label>
+
+                    </div>
+
+
+                    <div class="card-fields" id="cardFields">
+
+                        <input
+                            type="text"
+                            id="cardNumber"
+                            placeholder="Card number"
+                            maxlength="19"
+                        >
+
+                        <div>
+
+                            <input
+                                type="text"
+                                placeholder="MM / YY"
+                                maxlength="7"
+                            >
+
+                            <input
+                                type="text"
+                                placeholder="CVV"
+                                maxlength="3"
+                            >
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <button class="place-order" type="submit">
+                    <span>PLACE ORDER</span>
+                    <span>→</span>
+                </button>
+
+            </form>
+
+        </div>
+
+
+        <div class="checkout-right">
+
+            <span class="eyebrow">ORDER SUMMARY</span>
+
+            <div id="checkoutSummary"></div>
+
+            <div class="summary-line">
+                <span>SUBTOTAL</span>
+                <strong id="checkoutSubtotal">₹0</strong>
+            </div>
+
+            <div class="summary-line">
+                <span>SHIPPING</span>
+                <strong>FREE</strong>
+            </div>
+
+            <div class="summary-total">
+                <span>TOTAL</span>
+                <strong id="checkoutTotal">₹0</strong>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ORDER SUCCESS -->
+
+    <div class="order-success" id="orderSuccess">
+
+        <div class="success-check">✓</div>
+
+        <span class="eyebrow">ORDER CONFIRMED</span>
+
+        <h2>THANK YOU.</h2>
+
+        <p>
+            Your LIVN. order has been placed successfully.
+        </p>
+
+        <button id="successClose">
+            BACK TO SHOP →
+        </button>
+
+    </div>
+
+</div>
+
+
+<!-- ================= TOAST ================= -->
+
+<div class="toast" id="toast"></div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
+<!-- LIVN LANDING ANIMATION ADD-ON -->
+<div class="livn-page-loader" id="livnPageLoader">
+    <div class="livn-loader-logo">LIVN.</div>
+    <div class="livn-loader-line"></div>
+</div>
+
+<div class="livn-hero-progress">
+    <span class="livn-progress-fill"></span>
+</div>
+<!-- =========================================
+     LIVN ORDER TRACKING ADD-ON
+========================================= -->
+
+<div class="livn-track-overlay" id="livnTrackOverlay">
+
+    <div class="livn-track-box">
+
+        <button class="livn-track-close" id="livnTrackClose">
+            ×
+        </button>
+
+        <div class="livn-track-head">
+
+            <span>ORDER TRACKING</span>
+
+            <h2>Track your order.</h2>
+
+            <p id="livnTrackOrderId">
+                Order #LIVN-000000
+            </p>
+
+        </div>
+
+
+        <div class="livn-track-status">
+
+            <div class="livn-track-status-top">
+
+                <div>
+                    <small>CURRENT STATUS</small>
+                    <strong id="livnCurrentStatus">
+                        Order Confirmed
+                    </strong>
+                </div>
+
+                <div class="livn-track-delivery">
+                    <small>ESTIMATED DELIVERY</small>
+                    <strong id="livnDeliveryDate">
+                        —
+                    </strong>
+                </div>
+
+            </div>
+
+
+            <div class="livn-track-line">
+
+                <div class="livn-track-step active">
+                    <span>01</span>
+                    <div>
+                        <strong>Order Confirmed</strong>
+                        <small>We've received your order.</small>
+                    </div>
+                </div>
+
+                <div class="livn-track-step">
+                    <span>02</span>
+                    <div>
+                        <strong>Processing</strong>
+                        <small>Your order is being prepared.</small>
+                    </div>
+                </div>
+
+                <div class="livn-track-step">
+                    <span>03</span>
+                    <div>
+                        <strong>Packed</strong>
+                        <small>Your package is ready.</small>
+                    </div>
+                </div>
+
+                <div class="livn-track-step">
+                    <span>04</span>
+                    <div>
+                        <strong>Shipped</strong>
+                        <small>Your package is on the way.</small>
+                    </div>
+                </div>
+
+                <div class="livn-track-step">
+                    <span>05</span>
+                    <div>
+                        <strong>Delivered</strong>
+                        <small>Your order has arrived.</small>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="livn-track-footer">
+
+            <button id="livnTrackRefresh">
+                REFRESH STATUS
+            </button>
+
+            <button id="livnTrackCloseBottom">
+                DONE
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+<!-- =========================================
+     LIVN ACCOUNT SYSTEM ADD-ON
+========================================= -->
+
+<div class="livn-account-overlay" id="livnAccountOverlay">
+
+    <div class="livn-account-box">
+
+        <button class="livn-account-close" id="livnAccountClose">×</button>
+
+        <!-- LOGIN -->
+
+        <div class="livn-auth" id="livnLogin">
+
+            <span class="livn-account-label">LIVN. ACCOUNT</span>
+
+            <h2>Welcome back.</h2>
+
+            <p>Sign in to manage your orders and account.</p>
+
+            <form id="livnLoginForm">
+
+                <input
+                    type="email"
+                    id="livnLoginEmail"
+                    placeholder="Email address"
+                    required
+                >
+
+                <input
+                    type="password"
+                    id="livnLoginPassword"
+                    placeholder="Password"
+                    required
+                >
+
+                <button type="submit">
+                    SIGN IN →
+                </button>
+
+            </form>
+
+            <div class="livn-auth-switch">
+                Don't have an account?
+                <button type="button" id="livnShowSignup">
+                    CREATE ACCOUNT
+                </button>
+            </div>
+
+        </div>
+
+
+        <!-- SIGN UP -->
+
+        <div class="livn-auth hidden" id="livnSignup">
+
+            <span class="livn-account-label">LIVN. ACCOUNT</span>
+
+            <h2>Create account.</h2>
+
+            <p>Save your orders, addresses and preferences.</p>
+
+            <form id="livnSignupForm">
+
+                <input
+                    type="text"
+                    id="livnSignupName"
+                    placeholder="Full name"
+                    required
+                >
+
+                <input
+                    type="email"
+                    id="livnSignupEmail"
+                    placeholder="Email address"
+                    required
+                >
+
+                <input
+                    type="password"
+                    id="livnSignupPassword"
+                    placeholder="Password"
+                    minlength="6"
+                    required
+                >
+
+                <button type="submit">
+                    CREATE ACCOUNT →
+                </button>
+
+            </form>
+
+            <div class="livn-auth-switch">
+                Already have an account?
+                <button type="button" id="livnShowLogin">
+                    SIGN IN
+                </button>
+            </div>
+
+        </div>
+
+
+        <!-- ACCOUNT DASHBOARD -->
+
+        <div class="livn-dashboard hidden" id="livnDashboard">
+
+            <div class="livn-account-head">
+
+                <div>
+                    <span class="livn-account-label">
+                        MY ACCOUNT
+                    </span>
+
+                    <h2 id="livnAccountName">
+                        Hello.
+                    </h2>
+
+                    <p id="livnAccountEmail"></p>
+                </div>
+
+                <button id="livnLogout">
+                    LOG OUT
+                </button>
+
+            </div>
+
+
+            <div class="livn-account-grid">
+
+                <button class="livn-account-card" data-account="orders">
+                    <span>01</span>
+                    <strong>ORDER HISTORY</strong>
+                    <small>View your previous orders</small>
+                </button>
+
+                <button class="livn-account-card" data-account="track">
+                    <span>02</span>
+                    <strong>TRACK ORDER</strong>
+                    <small>Check your latest delivery</small>
+                </button>
+
+                <button class="livn-account-card" data-account="wishlist">
+                    <span>03</span>
+                    <strong>WISHLIST</strong>
+                    <small>Your saved products</small>
+                </button>
+
+                <button class="livn-account-card" data-account="profile">
+                    <span>04</span>
+                    <strong>PROFILE</strong>
+                    <small>Manage your information</small>
+                </button>
+
+                <button class="livn-account-card" data-account="addresses">
+                    <span>05</span>
+                    <strong>ADDRESSES</strong>
+                    <small>Manage delivery addresses</small>
+                </button>
+
+                <button class="livn-account-card" data-account="payments">
+                    <span>06</span>
+                    <strong>PAYMENT METHODS</strong>
+                    <small>Manage saved payments</small>
+                </button>
+
+            </div>
+
+
+            <!-- ACCOUNT CONTENT -->
+
+            <div class="livn-account-content" id="livnAccountContent">
+
+                <div class="livn-account-empty">
+                    Select an option above.
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<!-- =========================================
+     LIVN. COMPLETE ACCOUNT SYSTEM
+========================================= -->
+
+<div class="livn-pro-account" id="livnProAccount">
+
+    <div class="livn-pro-panel">
+
+        <button class="livn-pro-close" id="livnProClose">×</button>
+
+        <!-- LOGIN -->
+        <section class="livn-auth-screen" id="livnProLogin">
+
+            <div class="livn-pro-kicker">LIVN. ACCOUNT</div>
+
+            <h2>Welcome back.</h2>
+            <p>Sign in to manage your LIVN. account.</p>
+
+            <form id="livnProLoginForm">
+
+                <label>Email</label>
+                <input
+                    type="email"
+                    id="livnProLoginEmail"
+                    placeholder="you@example.com"
+                    required
+                >
+
+                <label>Password</label>
+                <input
+                    type="password"
+                    id="livnProLoginPassword"
+                    placeholder="Your password"
+                    required
+                >
+
+                <button class="livn-pro-main-btn" type="submit">
+                    SIGN IN <span>→</span>
+                </button>
+
+            </form>
+
+            <div class="livn-pro-switch">
+                New to LIVN.?
+                <button id="livnProGoSignup">CREATE ACCOUNT</button>
+            </div>
+
+        </section>
+
+
+        <!-- SIGNUP -->
+        <section class="livn-auth-screen livn-pro-hide" id="livnProSignup">
+
+            <div class="livn-pro-kicker">LIVN. ACCOUNT</div>
+
+            <h2>Create account.</h2>
+            <p>Create your personal LIVN. account.</p>
+
+            <form id="livnProSignupForm">
+
+                <label>Full name</label>
+                <input
+                    type="text"
+                    id="livnProSignupName"
+                    placeholder="Your name"
+                    required
+                >
+
+                <label>Email</label>
+                <input
+                    type="email"
+                    id="livnProSignupEmail"
+                    placeholder="you@example.com"
+                    required
+                >
+
+                <label>Password</label>
+                <input
+                    type="password"
+                    id="livnProSignupPassword"
+                    placeholder="Minimum 6 characters"
+                    minlength="6"
+                    required
+                >
+
+                <button class="livn-pro-main-btn" type="submit">
+                    CREATE ACCOUNT <span>→</span>
+                </button>
+
+            </form>
+
+            <div class="livn-pro-switch">
+                Already have an account?
+                <button id="livnProGoLogin">SIGN IN</button>
+            </div>
+
+        </section>
+
+
+        <!-- ACCOUNT -->
+        <section class="livn-pro-dashboard livn-pro-hide" id="livnProDashboard">
+
+            <div class="livn-pro-head">
+
+                <div>
+                    <div class="livn-pro-kicker">MY ACCOUNT</div>
+                    <h2 id="livnProUserName">Hello.</h2>
+                    <p id="livnProUserEmail"></p>
+                </div>
+
+                <button id="livnProLogout" class="livn-pro-logout">
+                    LOG OUT
+                </button>
+
+            </div>
+
+
+            <!-- MENU -->
+            <div class="livn-pro-menu">
+
+                <button data-pro-section="orders">
+                    <b>01</b>
+                    <span>📦</span>
+                    <strong>Order History</strong>
+                </button>
+
+                <button data-pro-section="tracking">
+                    <b>02</b>
+                    <span>🚚</span>
+                    <strong>Track Order</strong>
+                </button>
+
+                <button data-pro-section="details">
+                    <b>03</b>
+                    <span>📋</span>
+                    <strong>Order Details</strong>
+                </button>
+
+                <button data-pro-section="wishlist">
+                    <b>04</b>
+                    <span>♥</span>
+                    <strong>Wishlist</strong>
+                </button>
+
+                <button data-pro-section="profile">
+                    <b>05</b>
+                    <span>👤</span>
+                    <strong>Profile</strong>
+                </button>
+
+                <button data-pro-section="addresses">
+                    <b>06</b>
+                    <span>📍</span>
+                    <strong>Addresses</strong>
+                </button>
+
+                <button data-pro-section="payments">
+                    <b>07</b>
+                    <span>💳</span>
+                    <strong>Payments</strong>
+                </button>
+
+            </div>
+
+
+            <!-- CONTENT -->
+            <div class="livn-pro-content" id="livnProContent">
+
+                <div class="livn-pro-welcome">
+                    <div>ACCOUNT CENTER</div>
+                    <h3>Everything in one place.</h3>
+                    <p>
+                        Manage your orders, wishlist, profile and delivery details.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+</div>
+<!-- =========================================================
+     LIVN FINAL ACCOUNT SYSTEM
+     ADD-ON ONLY — DO NOT DELETE OLD CODE
+========================================================= -->
+
+<style>
+#livnFinalAccount{
+    position:fixed;
+    inset:0;
+    z-index:99999999;
+    display:none;
+    background:rgba(15,18,16,.52);
+    backdrop-filter:blur(12px);
+    -webkit-backdrop-filter:blur(12px);
+}
+
+#livnFinalAccount.open{
+    display:block;
+}
+
+.livn-final-panel{
+    position:absolute;
+    right:0;
+    top:0;
+    width:min(620px,100%);
+    height:100%;
+    overflow:auto;
+    background:#F5F5EF;
+    color:#202520;
+    padding:42px;
+    box-shadow:-25px 0 70px rgba(0,0,0,.18);
+}
+
+.livn-final-close{
+    position:absolute;
+    right:24px;
+    top:20px;
+    width:40px;
+    height:40px;
+    border:1px solid #D9DDD6;
+    background:transparent;
+    font-size:24px;
+    cursor:pointer;
+}
+
+.livn-final-close:hover{
+    background:#26352B;
+    color:#fff;
+}
+
+.livn-final-kicker{
+    margin-top:28px;
+    font-size:10px;
+    font-weight:800;
+    letter-spacing:.18em;
+    color:#60745A;
+}
+
+.livn-final-title{
+    margin:12px 0 8px;
+    font-size:52px;
+    line-height:.94;
+    letter-spacing:-.06em;
+}
+
+.livn-final-sub{
+    color:#777C75;
+    font-size:13px;
+    line-height:1.6;
+    margin-bottom:28px;
+}
+
+.livn-final-form{
+    display:flex;
+    flex-direction:column;
+    gap:9px;
+}
+
+.livn-final-form label{
+    margin-top:8px;
+    font-size:9px;
+    font-weight:800;
+    letter-spacing:.14em;
+}
+
+.livn-final-form input,
+.livn-final-form textarea{
+    width:100%;
+    border:1px solid #D9DDD6;
+    background:#fff;
+    padding:15px;
+    outline:none;
+    font:inherit;
+    resize:vertical;
+}
+
+.livn-final-form input:focus,
+.livn-final-form textarea:focus{
+    border-color:#60745A;
+}
+
+.livn-final-main{
+    width:100%;
+    margin-top:12px;
+    padding:17px;
+    border:0;
+    background:#26352B;
+    color:#fff;
+    font-size:10px;
+    font-weight:800;
+    letter-spacing:.13em;
+    cursor:pointer;
+}
+
+.livn-final-main:hover{
+    background:#60745A;
+}
+
+.livn-final-switch{
+    text-align:center;
+    margin-top:20px;
+    font-size:12px;
+    color:#777C75;
+}
+
+.livn-final-switch button{
+    border:0;
+    background:none;
+    font-size:10px;
+    font-weight:800;
+    cursor:pointer;
+    color:#26352B;
+}
+
+.livn-final-dashboard{
+    display:none;
+}
+
+.livn-final-head{
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+    align-items:flex-start;
+    border-bottom:1px solid #D9DDD6;
+    padding-bottom:24px;
+    margin-bottom:22px;
+}
+
+.livn-final-head h2{
+    margin:8px 0 5px;
+    font-size:40px;
+    line-height:1;
+    letter-spacing:-.05em;
+}
+
+.livn-final-email{
+    color:#777C75;
+    font-size:11px;
+}
+
+.livn-final-logout{
+    padding:10px 13px;
+    border:1px solid #D9DDD6;
+    background:transparent;
+    cursor:pointer;
+    font-size:9px;
+    font-weight:800;
+}
+
+.livn-final-logout:hover{
+    background:#26352B;
+    color:#fff;
+}
+
+.livn-final-menu{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:8px;
+}
+
+.livn-final-card{
+    min-height:115px;
+    padding:18px;
+    border:1px solid #DDE1DA;
+    background:#fff;
+    text-align:left;
+    cursor:pointer;
+    transition:.2s;
+}
+
+.livn-final-card:hover{
+    border-color:#60745A;
+    transform:translateY(-2px);
+}
+
+.livn-final-card-icon{
+    display:block;
+    font-size:21px;
+    margin-bottom:14px;
+}
+
+.livn-final-card strong{
+    display:block;
+    font-size:10px;
+    letter-spacing:.05em;
+}
+
+.livn-final-card small{
+    display:block;
+    color:#888D86;
+    font-size:9px;
+    margin-top:6px;
+}
+
+.livn-final-content{
+    margin-top:28px;
+    border-top:1px solid #D9DDD6;
+    padding-top:25px;
+}
+
+.livn-final-section{
+    font-size:9px;
+    font-weight:800;
+    letter-spacing:.17em;
+    color:#60745A;
+    margin-bottom:12px;
+}
+
+.livn-final-empty{
+    padding:25px;
+    background:#fff;
+    border:1px solid #DDE1DA;
+    color:#777C75;
+    font-size:12px;
+    line-height:1.6;
+}
+
+.livn-final-order{
+    background:#fff;
+    border:1px solid #DDE1DA;
+    margin-bottom:10px;
+}
+
+.livn-final-order-head{
+    display:flex;
+    justify-content:space-between;
+    gap:15px;
+    padding:17px;
+    border-bottom:1px solid #E6E8E3;
+}
+
+.livn-final-order-id{
+    font-size:11px;
+    font-weight:800;
+}
+
+.livn-final-order-date{
+    display:block;
+    margin-top:5px;
+    color:#8A8E88;
+    font-size:9px;
+}
+
+.livn-final-status{
+    color:#60745A;
+    font-size:9px;
+    font-weight:800;
+    text-align:right;
+}
+
+.livn-final-item{
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+    padding:14px 17px;
+    border-bottom:1px solid #E7E9E4;
+    font-size:11px;
+}
+
+.livn-final-item small{
+    display:block;
+    margin-top:4px;
+    color:#888D86;
+    font-size:9px;
+}
+
+.livn-final-total{
+    display:flex;
+    justify-content:space-between;
+    padding:17px;
+    font-size:12px;
+    font-weight:800;
+}
+
+.livn-final-info{
+    background:#fff;
+    border:1px solid #DDE1DA;
+}
+
+.livn-final-info-row{
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+    padding:16px;
+    border-bottom:1px solid #E7E9E4;
+}
+
+.livn-final-info-row:last-child{
+    border-bottom:0;
+}
+
+.livn-final-info-row span{
+    color:#8A8E88;
+    font-size:9px;
+    letter-spacing:.08em;
+}
+
+.livn-final-info-row strong{
+    font-size:11px;
+    text-align:right;
+}
+
+.livn-final-track{
+    background:#fff;
+    border:1px solid #DDE1DA;
+    padding:22px;
+}
+
+.livn-track-line{
+    position:relative;
+    padding-left:31px;
+    padding-bottom:27px;
+}
+
+.livn-track-line:last-child{
+    padding-bottom:0;
+}
+
+.livn-track-line:before{
+    content:"";
+    position:absolute;
+    left:5px;
+    top:3px;
+    width:11px;
+    height:11px;
+    border-radius:50%;
+    background:#D2D7D0;
+}
+
+.livn-track-line.done:before,
+.livn-track-line.active:before{
+    background:#60745A;
+}
+
+.livn-track-line strong{
+    font-size:11px;
+}
+
+.livn-track-line small{
+    display:block;
+    color:#888D86;
+    font-size:9px;
+    margin-top:4px;
+}
+
+.livn-final-message{
+    margin-top:10px;
+    padding:12px;
+    background:#E8ECE5;
+    color:#4E5D4F;
+    font-size:10px;
+}
+
+@media(max-width:600px){
+
+    .livn-final-panel{
+        padding:25px 18px;
+    }
+
+    .livn-final-title{
+        font-size:42px;
+    }
+
+    .livn-final-menu{
+        grid-template-columns:1fr;
+    }
+
+    .livn-final-head{
+        flex-direction:column;
+    }
+}
+</style>
+
+
+<!-- FINAL ACCOUNT UI -->
+
+<div id="livnFinalAccount">
+
+    <div class="livn-final-panel">
+
+        <button
+            class="livn-final-close"
+            id="livnFinalClose"
+            type="button"
+        >×</button>
+
+
+        <!-- LOGIN -->
+
+        <div id="livnFinalLogin">
+
+            <div class="livn-final-kicker">
+                LIVN. ACCOUNT
+            </div>
+
+            <div class="livn-final-title">
+                Welcome back.
+            </div>
+
+            <div class="livn-final-sub">
+                Sign in to manage your orders,
+                wishlist and account.
+            </div>
+
+            <form
+                class="livn-final-form"
+                id="livnFinalLoginForm"
+            >
+
+                <label>EMAIL</label>
+
+                <input
+                    type="email"
+                    id="livnFinalLoginEmail"
+                    placeholder="you@example.com"
+                    required
+                >
+
+                <label>PASSWORD</label>
+
+                <input
+                    type="password"
+                    id="livnFinalLoginPassword"
+                    placeholder="Password"
+                    required
+                >
+
+                <button
+                    class="livn-final-main"
+                    type="submit"
+                >
+                    SIGN IN →
+                </button>
+
+            </form>
+
+            <div class="livn-final-switch">
+
+                Don't have an account?
+
+                <button
+                    type="button"
+                    id="livnFinalSignupSwitch"
+                >
+                    CREATE ACCOUNT
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- SIGNUP -->
+
+        <div
+            id="livnFinalSignup"
+            style="display:none"
+        >
+
+            <div class="livn-final-kicker">
+                LIVN. ACCOUNT
+            </div>
+
+            <div class="livn-final-title">
+                Create account.
+            </div>
+
+            <div class="livn-final-sub">
+                Create your LIVN. account.
+            </div>
+
+            <form
+                class="livn-final-form"
+                id="livnFinalSignupForm"
+            >
+
+                <label>FULL NAME</label>
+
+                <input
+                    id="livnFinalSignupName"
+                    type="text"
+                    placeholder="Your name"
+                    required
+                >
+
+                <label>EMAIL</label>
+
+                <input
+                    id="livnFinalSignupEmail"
+                    type="email"
+                    placeholder="you@example.com"
+                    required
+                >
+
+                <label>PASSWORD</label>
+
+                <input
+                    id="livnFinalSignupPassword"
+                    type="password"
+                    minlength="6"
+                    placeholder="Minimum 6 characters"
+                    required
+                >
+
+                <button
+                    class="livn-final-main"
+                    type="submit"
+                >
+                    CREATE ACCOUNT →
+                </button>
+
+            </form>
+
+            <div class="livn-final-switch">
+
+                Already have an account?
+
+                <button
+                    type="button"
+                    id="livnFinalLoginSwitch"
+                >
+                    SIGN IN
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- DASHBOARD -->
+
+        <div
+            class="livn-final-dashboard"
+            id="livnFinalDashboard"
+        >
+
+            <div class="livn-final-head">
+
+                <div>
+
+                    <div class="livn-final-kicker">
+                        MY ACCOUNT
+                    </div>
+
+                    <h2 id="livnFinalUserName">
+                        Hello.
+                    </h2>
+
+                    <div
+                        class="livn-final-email"
+                        id="livnFinalUserEmail"
+                    ></div>
+
+                </div>
+
+                <button
+                    class="livn-final-logout"
+                    id="livnFinalLogout"
+                >
+                    LOG OUT
+                </button>
+
+            </div>
+
+
+            <div class="livn-final-menu">
+
+                <button
+                    class="livn-final-card"
+                    data-final-account="orders"
+                >
+                    <span class="livn-final-card-icon">📦</span>
+                    <strong>ORDER HISTORY</strong>
+                    <small>View all your orders</small>
+                </button>
+
+                <button
+                    class="livn-final-card"
+                    data-final-account="tracking"
+                >
+                    <span class="livn-final-card-icon">🚚</span>
+                    <strong>TRACK ORDER</strong>
+                    <small>Track your latest order</small>
+                </button>
+
+                <button
+                    class="livn-final-card"
+                    data-final-account="details"
+                >
+                    <span class="livn-final-card-icon">📋</span>
+                    <strong>ORDER DETAILS / SUMMARY</strong>
+                    <small>Products, quantity and total</small>
+                </button>
+
+                <button
+                    class="livn-final-card"
+                    data-final-account="wishlist"
+                >
+                    <span class="livn-final-card-icon">❤️</span>
+                    <strong>WISHLIST</strong>
+                    <small>Your saved products</small>
+                </button>
+
+                <button
+                    class="livn-final-card"
+                    data-final-account="profile"
+                >
+                    <span class="livn-final-card-icon">👤</span>
+                    <strong>PROFILE DETAILS</strong>
+                    <small>Manage your account</small>
+                </button>
+
+                <button
+                    class="livn-final-card"
+                    data-final-account="addresses"
+                >
+                    <span class="livn-final-card-icon">📍</span>
+                    <strong>SAVED ADDRESSES</strong>
+                    <small>Your delivery addresses</small>
+                </button>
+
+                <button
+                    class="livn-final-card"
+                    data-final-account="payments"
+                >
+                    <span class="livn-final-card-icon">💳</span>
+                    <strong>PAYMENT METHODS</strong>
+                    <small>Your saved payment methods</small>
+                </button>
+
+            </div>
+
+
+            <div
+                class="livn-final-content"
+                id="livnFinalContent"
+            >
+
+                <div class="livn-final-empty">
+                    Select an option above.
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<script>
+/* =========================================================
+   LIVN FINAL ACCOUNT JS
+========================================================= */
+
+(function(){
+
+"use strict";
+
+
+/* ---------- HELPERS ---------- */
+
+function read(key, fallback){
+
+    try{
+
+        const x = localStorage.getItem(key);
+
+        return x ? JSON.parse(x) : fallback;
+
+    }catch(e){
+
+        return fallback;
+
+    }
+
+}
+
+
+function write(key,value){
+
+    localStorage.setItem(
+        key,
+        JSON.stringify(value)
+    );
+
+}
+
+
+function money(value){
+
+    return Number(value || 0)
+        .toLocaleString("en-IN",{
+            maximumFractionDigits:0
+        });
+
+}
+
+
+function escapeHTML(value){
+
+    return String(value ?? "")
+        .replace(/&/g,"&amp;")
+        .replace(/</g,"&lt;")
+        .replace(/>/g,"&gt;")
+        .replace(/"/g,"&quot;");
+
+}
+
+
+/* ---------- ELEMENTS ---------- */
+
+const accountPanel =
+    document.getElementById(
+        "livnFinalAccount"
+    );
+
+const accountBtn =
+    document.getElementById(
+        "accountBtn"
+    );
+
+
+/* ---------- IMPORTANT FIX ---------- */
+/*
+   Clone account button.
+   This removes every old click listener
+   including the old "COMING SOON" listener.
+*/
+
+if(accountBtn){
+
+    const cleanAccountBtn =
+        accountBtn.cloneNode(true);
+
+    accountBtn.replaceWith(
+        cleanAccountBtn
+    );
+
+
+    cleanAccountBtn.addEventListener(
+        "click",
+        function(e){
+
+            e.preventDefault();
+            e.stopPropagation();
+
+            openAccount();
+
+        }
+    );
+
+}
+
+
+/* ---------- OPEN / CLOSE ---------- */
+
+function openAccount(){
+
+    accountPanel.classList.add("open");
+
+    document.body.style.overflow =
+        "hidden";
+
+    const user =
+        read(
+            "livnFinalCurrentUser",
+            null
+        );
+
+    if(user){
+
+        showDashboard(user);
+
+    }else{
+
+        showLogin();
+
+    }
+
+}
+
+
+function closeAccount(){
+
+    accountPanel.classList.remove(
+        "open"
+    );
+
+    document.body.style.overflow =
+        "";
+
+}
+
+
+document
+    .getElementById("livnFinalClose")
+    .addEventListener(
+        "click",
+        closeAccount
+    );
+
+
+accountPanel.addEventListener(
+    "click",
+    function(e){
+
+        if(e.target === accountPanel){
+
+            closeAccount();
+
+        }
+
+    }
+);
+
+
+document.addEventListener(
+    "keydown",
+    function(e){
+
+        if(
+            e.key === "Escape" &&
+            accountPanel.classList.contains(
+                "open"
+            )
+        ){
+
+            closeAccount();
+
+        }
+
+    }
+);
+
+
+/* ---------- AUTH VIEWS ---------- */
+
+function showLogin(){
+
+    document.getElementById(
+        "livnFinalLogin"
+    ).style.display = "block";
+
+    document.getElementById(
+        "livnFinalSignup"
+    ).style.display = "none";
+
+    document.getElementById(
+        "livnFinalDashboard"
+    ).style.display = "none";
+
+}
+
+
+function showSignup(){
+
+    document.getElementById(
+        "livnFinalLogin"
+    ).style.display = "none";
+
+    document.getElementById(
+        "livnFinalSignup"
+    ).style.display = "block";
+
+    document.getElementById(
+        "livnFinalDashboard"
+    ).style.display = "none";
+
+}
+
+
+function showDashboard(user){
+
+    document.getElementById(
+        "livnFinalLogin"
+    ).style.display = "none";
+
+    document.getElementById(
+        "livnFinalSignup"
+    ).style.display = "none";
+
+    document.getElementById(
+        "livnFinalDashboard"
+    ).style.display = "block";
+
+
+    document.getElementById(
+        "livnFinalUserName"
+    ).textContent =
+        "Hello, " +
+        (
+            user.name ||
+            "there"
+        ).split(" ")[0] +
+        ".";
+
+
+    document.getElementById(
+        "livnFinalUserEmail"
+    ).textContent =
+        user.email || "";
+
+}
+
+
+/* ---------- SWITCH ---------- */
+
+document
+    .getElementById(
+        "livnFinalSignupSwitch"
+    )
+    .addEventListener(
+        "click",
+        showSignup
+    );
+
+
+document
+    .getElementById(
+        "livnFinalLoginSwitch"
+    )
+    .addEventListener(
+        "click",
+        showLogin
+    );
+
+
+/* ---------- SIGNUP ---------- */
+
+document
+    .getElementById(
+        "livnFinalSignupForm"
+    )
+    .addEventListener(
+        "submit",
+        function(e){
+
+            e.preventDefault();
+
+
+            const name =
+                document.getElementById(
+                    "livnFinalSignupName"
+                ).value.trim();
+
+
+            const email =
+                document.getElementById(
+                    "livnFinalSignupEmail"
+                ).value.trim().toLowerCase();
+
+
+            const password =
+                document.getElementById(
+                    "livnFinalSignupPassword"
+                ).value;
+
+
+            const users =
+                read(
+                    "livnFinalUsers",
+                    []
+                );
+
+
+            if(
+                users.some(
+                    u => u.email === email
+                )
+            ){
+
+                alert(
+                    "This email is already registered."
+                );
+
+                return;
+
+            }
+
+
+            const user = {
+
+                id:
+                    "LIVN-" +
+                    Date.now(),
+
+                name:name,
+
+                email:email,
+
+                password:password,
+
+                createdAt:
+                    new Date().toISOString()
+
+            };
+
+
+            users.push(user);
+
+
+            write(
+                "livnFinalUsers",
+                users
+            );
+
+
+            write(
+                "livnFinalCurrentUser",
+                user
+            );
+
+
+            showDashboard(user);
+
+        }
+    );
+
+
+/* ---------- LOGIN ---------- */
+
+document
+    .getElementById(
+        "livnFinalLoginForm"
+    )
+    .addEventListener(
+        "submit",
+        function(e){
+
+            e.preventDefault();
+
+
+            const email =
+                document.getElementById(
+                    "livnFinalLoginEmail"
+                ).value.trim().toLowerCase();
+
+
+            const password =
+                document.getElementById(
+                    "livnFinalLoginPassword"
+                ).value;
+
+
+            const users =
+                read(
+                    "livnFinalUsers",
+                    []
+                );
+
+
+            const user =
+                users.find(
+                    u =>
+                        u.email === email &&
+                        u.password === password
+                );
+
+
+            if(!user){
+
+                alert(
+                    "Email or password is incorrect."
+                );
+
+                return;
+
+            }
+
+
+            write(
+                "livnFinalCurrentUser",
+                user
+            );
+
+
+            showDashboard(user);
+
+        }
+    );
+
+
+/* ---------- LOGOUT ---------- */
+
+document
+    .getElementById(
+        "livnFinalLogout"
+    )
+    .addEventListener(
+        "click",
+        function(){
+
+            localStorage.removeItem(
+                "livnFinalCurrentUser"
+            );
+
+            showLogin();
+
+        }
+    );
+
+
+/* =========================================================
+   ORDER DATA
+========================================================= */
+
+function getOrders(){
+
+    let orders =
+        read(
+            "livnFinalOrders",
+            []
+        );
+
+
+    if(
+        Array.isArray(orders) &&
+        orders.length
+    ){
+
+        return orders;
+
+    }
+
+
+    const last =
+        read(
+            "livnLastOrder",
+            null
+        );
+
+
+    if(last){
+
+        return [last];
+
+    }
+
+
+    return [];
+
+}
+
+
+function getOrderItems(order){
+
+    if(
+        order &&
+        Array.isArray(order.items)
+    ){
+
+        return order.items;
+
+    }
+
+
+    return [];
+
+}
+
+
+function itemPrice(item){
+
+    return Number(
+        String(
+            item.price ||
+            item.amount ||
+            0
+        ).replace(
+            /[₹,\s]/g,
+            ""
+        )
+    ) || 0;
+
+}
+
+
+function itemQty(item){
+
+    return Number(
+        item.quantity ||
+        item.qty ||
+        1
+    );
+
+}
+
+
+function orderTotal(order){
+
+    const items =
+        getOrderItems(order);
+
+
+    const total =
+        items.reduce(
+            function(sum,item){
+
+                return sum +
+                    itemPrice(item) *
+                    itemQty(item);
+
+            },
+            0
+        );
+
+
+    if(total){
+
+        return total;
+
+    }
+
+
+    return Number(
+        order.total ||
+        order.amount ||
+        0
+    );
+
+}
+
+
+/* =========================================================
+   ORDER HISTORY
+========================================================= */
+
+function showOrders(){
+
+    const orders =
+        getOrders();
+
+
+    let html = `
+
+        <div class="livn-final-section">
+            ORDER HISTORY
+        </div>
+
+    `;
+
+
+    if(!orders.length){
+
+        html += `
+            <div class="livn-final-empty">
+                You haven't placed any orders yet.
+            </div>
+        `;
+
+        document.getElementById(
+            "livnFinalContent"
+        ).innerHTML = html;
+
+        return;
+
+    }
+
+
+    orders
+        .slice()
+        .reverse()
+        .forEach(
+            function(order){
+
+                const status =
+                    Number(
+                        order.status || 0
+                    );
+
+
+                const statusNames = [
+                    "CONFIRMED",
+                    "PROCESSING",
+                    "PACKED",
+                    "SHIPPED",
+                    "DELIVERED"
+                ];
+
+
+                html += `
+
+                    <div class="livn-final-order">
+
+                        <div
+                            class="livn-final-order-head"
+                        >
+
+                            <div>
+
+                                <div
+                                    class="livn-final-order-id"
+                                >
+                                    #${escapeHTML(
+                                        order.id ||
+                                        "LIVN-ORDER"
+                                    )}
+                                </div>
+
+                                <span
+                                    class="livn-final-order-date"
+                                >
+                                    ${
+                                        order.date
+                                        ?
+                                        new Date(
+                                            order.date
+                                        ).toLocaleString(
+                                            "en-IN"
+                                        )
+                                        :
+                                        ""
+                                    }
+                                </span>
+
+                            </div>
+
+                            <div
+                                class="livn-final-status"
+                            >
+                                ${
+                                    statusNames[
+                                        Math.min(
+                                            status,
+                                            4
+                                        )
+                                    ]
+                                }
+                            </div>
+
+                        </div>
+
+
+                        ${getOrderItems(order)
+                            .map(
+                                function(item){
+
+                                    return `
+
+                                        <div
+                                            class="livn-final-item"
+                                        >
+
+                                            <div>
+
+                                                ${escapeHTML(
+                                                    item.name ||
+                                                    item.title ||
+                                                    "Product"
+                                                )}
+
+                                                <small>
+                                                    Qty:
+                                                    ${itemQty(item)}
+                                                </small>
+
+                                            </div>
+
+                                            <strong>
+                                                ₹${money(
+                                                    itemPrice(item) *
+                                                    itemQty(item)
+                                                )}
+                                            </strong>
+
+                                        </div>
+
+                                    `;
+
+                                }
+                            )
+                            .join("")}
+
+
+                        <div
+                            class="livn-final-total"
+                        >
+
+                            <span>
+                                TOTAL
+                            </span>
+
+                            <strong>
+                                ₹${money(
+                                    orderTotal(order)
+                                )}
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                `;
+
+            }
+        );
+
+
+    document.getElementById(
+        "livnFinalContent"
+    ).innerHTML = html;
+
+}
+
+
+/* =========================================================
+   ORDER DETAILS
+========================================================= */
+
+function showDetails(){
+
+    const orders =
+        getOrders();
+
+
+    if(!orders.length){
+
+        document.getElementById(
+            "livnFinalContent"
+        ).innerHTML = `
+
+            <div class="livn-final-section">
+                ORDER DETAILS / SUMMARY
+            </div>
+
+            <div class="livn-final-empty">
+                No order details available yet.
+            </div>
+
+        `;
+
+        return;
+
+    }
+
+
+    const order =
+        orders[
+            orders.length - 1
+        ];
+
+
+    let html = `
+
+        <div class="livn-final-section">
+            ORDER DETAILS / SUMMARY
+        </div>
+
+        <div class="livn-final-order">
+
+            <div class="livn-final-order-head">
+
+                <div>
+
+                    <div class="livn-final-order-id">
+                        #${escapeHTML(
+                            order.id ||
+                            "LIVN-ORDER"
+                        )}
+                    </div>
+
+                    <span class="livn-final-order-date">
+                        ${
+                            order.date
+                            ?
+                            new Date(
+                                order.date
+                            ).toLocaleString(
+                                "en-IN"
+                            )
+                            :
+                            ""
+                        }
+                    </span>
+
+                </div>
+
+            </div>
+
+    `;
+
+
+    getOrderItems(order)
+        .forEach(
+            function(item){
+
+                html += `
+
+                    <div
+                        class="livn-final-item"
+                    >
+
+                        <div>
+
+                            ${escapeHTML(
+                                item.name ||
+                                item.title ||
+                                "Product"
+                            )}
+
+                            <small>
+                                ${itemQty(item)}
+                                ×
+                                ₹${money(
+                                    itemPrice(item)
+                                )}
+                            </small>
+
+                        </div>
+
+                        <strong>
+                            ₹${money(
+                                itemPrice(item) *
+                                itemQty(item)
+                            )}
+                        </strong>
+
+                    </div>
+
+                `;
+
+            }
+        );
+
+
+    html += `
+
+            <div
+                class="livn-final-total"
+            >
+
+                <span>
+                    ORDER TOTAL
+                </span>
+
+                <strong>
+                    ₹${money(
+                        orderTotal(order)
+                    )}
+                </strong>
+
+            </div>
+
+        </div>
+
+    `;
+
+
+    document.getElementById(
+        "livnFinalContent"
+    ).innerHTML = html;
+
+}
+
+
+/* =========================================================
+   TRACKING
+========================================================= */
+
+function showTracking(){
+
+    const orders =
+        getOrders();
+
+
+    if(!orders.length){
+
+        document.getElementById(
+            "livnFinalContent"
+        ).innerHTML = `
+
+            <div class="livn-final-section">
+                TRACK ORDER
+            </div>
+
+            <div class="livn-final-empty">
+                No active order found.
+            </div>
+
+        `;
+
+        return;
+
+    }
+
+
+    const order =
+        orders[
+            orders.length - 1
+        ];
+
+
+    const status =
+        Number(
+            order.status || 0
+        );
+
+
+    const steps = [
+
+        [
+            "Order Confirmed",
+            "Your order has been received."
+        ],
+
+        [
+            "Processing",
+            "Your order is being prepared."
+        ],
+
+        [
+            "Packed",
+            "Your package has been packed."
+        ],
+
+        [
+            "Shipped",
+            "Your package is on the way."
+        ],
+
+        [
+            "Delivered",
+            "Your order has been delivered."
+        ]
+
+    ];
+
+
+    let html = `
+
+        <div class="livn-final-section">
+            ORDER STATUS TRACKING
+        </div>
+
+        <div class="livn-final-track">
+
+            <div
+                style="
+                    display:flex;
+                    justify-content:space-between;
+                    margin-bottom:28px;
+                    gap:15px;
+                "
+            >
+
+                <strong style="font-size:11px">
+                    #${escapeHTML(
+                        order.id ||
+                        "LIVN-ORDER"
+                    )}
+                </strong>
+
+                <span
+                    style="
+                        color:#60745A;
+                        font-size:9px;
+                        font-weight:800;
+                    "
+                >
+                    ${
+                        steps[
+                            Math.min(
+                                status,
+                                4
+                            )
+                        ][0]
+                    }
+                </span>
+
+            </div>
+
+    `;
+
+
+    steps.forEach(
+        function(step,index){
+
+            html += `
+
+                <div
+                    class="
+                        livn-track-line
+                        ${
+                            index < status
+                            ? "done"
+                            : ""
+                        }
+                        ${
+                            index === status
+                            ? "active"
+                            : ""
+                        }
+                    "
+                >
+
+                    <strong>
+                        ${step[0]}
+                    </strong>
+
+                    <small>
+                        ${step[1]}
+                    </small>
+
+                </div>
+
+            `;
+
+        }
+    );
+
+
+    html += `
+
+            <button
+                class="livn-final-main"
+                id="livnFinalUpdateTracking"
+                type="button"
+            >
+                ${
+                    status >= 4
+                    ?
+                    "ORDER DELIVERED"
+                    :
+                    "UPDATE ORDER STATUS →"
+                }
+            </button>
+
+        </div>
+
+    `;
+
+
+    document.getElementById(
+        "livnFinalContent"
+    ).innerHTML = html;
+
+
+    const update =
+        document.getElementById(
+            "livnFinalUpdateTracking"
+        );
+
+
+    if(update){
+
+        update.addEventListener(
+            "click",
+            function(){
+
+                if(status >= 4){
+
+                    return;
+
+                }
+
+
+                order.status =
+                    status + 1;
+
+
+                saveOrder(order);
+
+
+                showTracking();
+
+            }
+        );
+
+    }
+
+}
+
+
+/* ---------- SAVE ORDER ---------- */
+
+function saveOrder(order){
+
+    let orders =
+        read(
+            "livnFinalOrders",
+            []
+        );
+
+
+    if(!Array.isArray(orders)){
+
+        orders = [];
+
+    }
+
+
+    const index =
+        orders.findIndex(
+            o =>
+                String(o.id) ===
+                String(order.id)
+        );
+
+
+    if(index >= 0){
+
+        orders[index] =
+            order;
+
+    }else{
+
+        orders.push(order);
+
+    }
+
+
+    write(
+        "livnFinalOrders",
+        orders
+    );
+
+
+    write(
+        "livnLastOrder",
+        order
+    );
+
+}
+
+
+/* =========================================================
+   WISHLIST
+========================================================= */
+
+function showWishlist(){
+
+    const wishlist =
+        read(
+            "livnWishlist",
+            []
+        );
+
+
+    let html = `
+
+        <div class="livn-final-section">
+            WISHLIST
+        </div>
+
+    `;
+
+
+    if(!wishlist.length){
+
+        html += `
+
+            <div class="livn-final-empty">
+                Your wishlist is empty.
+            </div>
+
+        `;
+
+    }else{
+
+        html += `<div class="livn-final-info">`;
+
+        wishlist.forEach(
+            function(item){
+
+                const name =
+                    typeof item === "string"
+                    ?
+                    item
+                    :
+                    (
+                        item.name ||
+                        item.title ||
+                        "Saved product"
+                    );
+
+
+                html += `
+
+                    <div class="livn-final-info-row">
+
+                        <span>PRODUCT</span>
+
+                        <strong>
+                            ${escapeHTML(name)}
+                        </strong>
+
+                    </div>
+
+                `;
+
+            }
+        );
+
+        html += `</div>`;
+
+    }
+
+
+    document.getElementById(
+        "livnFinalContent"
+    ).innerHTML = html;
+
+}
+
+
+/* =========================================================
+   PROFILE
+========================================================= */
+
+function showProfile(){
+
+    const user =
+        read(
+            "livnFinalCurrentUser",
+            null
+        );
+
+
+    if(!user) return;
+
+
+    document.getElementById(
+        "livnFinalContent"
+    ).innerHTML = `
+
+        <div class="livn-final-section">
+            PROFILE DETAILS
+        </div>
+
+        <div class="livn-final-info">
+
+            <div class="livn-final-info-row">
+
+                <span>
+                    FULL NAME
+                </span>
+
+                <strong>
+                    ${escapeHTML(
+                        user.name
+                    )}
+                </strong>
+
+            </div>
+
+            <div class="livn-final-info-row">
+
+                <span>
+                    EMAIL
+                </span>
+
+                <strong>
+                    ${escapeHTML(
+                        user.email
+                    )}
+                </strong>
+
+            </div>
+
+            <div class="livn-final-info-row">
+
+                <span>
+                    MEMBER SINCE
+                </span>
+
+                <strong>
+                    ${
+                        user.createdAt
+                        ?
+                        new Date(
+                            user.createdAt
+                        ).toLocaleDateString(
+                            "en-IN"
+                        )
+                        :
+                        "—"
+                    }
+                </strong>
+
+            </div>
+
+        </div>
+
+    `;
+
+}
+
+
+/* =========================================================
+   ADDRESSES
+========================================================= */
+
+function showAddresses(){
+
+    const addresses =
+        read(
+            "livnAddresses",
+            []
+        );
+
+
+    let html = `
+
+        <div class="livn-final-section">
+            SAVED ADDRESSES
+        </div>
+
+        <form
+            class="livn-final-form"
+            id="livnAddressForm"
+        >
+
+            <label>NEW ADDRESS</label>
+
+            <textarea
+                id="livnNewAddress"
+                rows="4"
+                placeholder="Enter delivery address"
+                required
+            ></textarea>
+
+            <button
+                class="livn-final-main"
+                type="submit"
+            >
+                SAVE ADDRESS →
+            </button>
+
+        </form>
+
+        <div
+            style="height:15px"
+        ></div>
+
+    `;
+
+
+    if(addresses.length){
+
+        html += `
+            <div class="livn-final-info">
+        `;
+
+
+        addresses.forEach(
+            function(address,index){
+
+                html += `
+
+                    <div class="livn-final-info-row">
+
+                        <span>
+                            ADDRESS ${index + 1}
+                        </span>
+
+                        <strong>
+                            ${escapeHTML(
+                                typeof address ===
+                                "string"
+                                ?
+                                address
+                                :
+                                address.address
+                            )}
+                        </strong>
+
+                    </div>
+
+                `;
+
+            }
+        );
+
+
+        html += `</div>`;
+
+    }
+
+
+    document.getElementById(
+        "livnFinalContent"
+    ).innerHTML = html;
+
+
+    document.getElementById(
+        "livnAddressForm"
+    ).addEventListener(
+        "submit",
+        function(e){
+
+            e.preventDefault();
+
+
+            const address =
+                document.getElementById(
+                    "livnNewAddress"
+                ).value.trim();
+
+
+            if(!address) return;
+
+
+            addresses.push({
+                address:address,
+                createdAt:
+                    new Date().toISOString()
+            });
+
+
+            write(
+                "livnAddresses",
+                addresses
+            );
+
+
+            showAddresses();
+
+        }
+    );
+
+}
+
+
+/* =========================================================
+   PAYMENT METHODS
+========================================================= */
+
+function showPayments(){
+
+    const payments =
+        read(
+            "livnPayments",
+            []
+        );
+
+
+    let html = `
+
+        <div class="livn-final-section">
+            PAYMENT METHODS
+        </div>
+
+        <div class="livn-final-empty">
+
+            Saved payment methods can be managed here.
+
+        </div>
+
+    `;
+
+
+    if(payments.length){
+
+        html = `
+
+            <div class="livn-final-section">
+                PAYMENT METHODS
+            </div>
+
+            <div class="livn-final-info">
+
+        `;
+
+
+        payments.forEach(
+            function(payment){
+
+                html += `
+
+                    <div
+                        class="livn-final-info-row"
+                    >
+
+                        <span>
+                            ${
+                                escapeHTML(
+                                    payment.type ||
+                                    "PAYMENT"
+                                )
+                            }
+                        </span>
+
+                        <strong>
+                            ${
+                                payment.last4
+                                ?
+                                "•••• " +
+                                escapeHTML(
+                                    payment.last4
+                                )
+                                :
+                                "SAVED"
+                            }
+                        </strong>
+
+                    </div>
+
+                `;
+
+            }
+        );
+
+
+        html += `</div>`;
+
+    }
+
+
+    document.getElementById(
+        "livnFinalContent"
+    ).innerHTML = html;
+
+}
+
+
+/* =========================================================
+   ACCOUNT MENU
+========================================================= */
+
+document
+    .querySelectorAll(
+        "[data-final-account]"
+    )
+    .forEach(
+        function(button){
+
+            button.addEventListener(
+                "click",
+                function(){
+
+                    const type =
+                        this.dataset
+                            .finalAccount;
+
+
+                    if(type === "orders")
+                        showOrders();
+
+
+                    if(type === "tracking")
+                        showTracking();
+
+
+                    if(type === "details")
+                        showDetails();
+
+
+                    if(type === "wishlist")
+                        showWishlist();
+
+
+                    if(type === "profile")
+                        showProfile();
+
+
+                    if(type === "addresses")
+                        showAddresses();
+
+
+                    if(type === "payments")
+                        showPayments();
+
+                }
+            );
+
+        }
+    );
+
+
+/* =========================================================
+   AUTO-CREATE ORDER FROM EXISTING CHECKOUT
+========================================================= */
+
+function captureCurrentOrder(){
+
+    let cart = null;
+
+
+    const possibleKeys = [
+
+        "livnCart",
+        "cart",
+        "livn_cart",
+        "shoppingCart",
+        "cartItems"
+
+    ];
+
+
+    for(
+        let i = 0;
+        i < possibleKeys.length;
+        i++
+    ){
+
+        const value =
+            read(
+                possibleKeys[i],
+                null
+            );
+
+
+        if(
+            Array.isArray(value) &&
+            value.length
+        ){
+
+            cart = value;
+
+            break;
+
+        }
+
+    }
+
+
+    if(!cart){
+
+        return;
+
+    }
+
+
+    const order = {
+
+        id:
+            "LIVN-" +
+            Math.floor(
+                100000 +
+                Math.random() * 900000
+            ),
+
+        date:
+            new Date().toISOString(),
+
+        status:0,
+
+        items:cart
+
+    };
+
+
+    saveOrder(order);
+
+}
+
+
+/*
+   Existing checkout button.
+*/
+
+document.addEventListener(
+    "click",
+    function(e){
+
+        const target =
+            e.target.closest(
+                "#placeOrder, .place-order"
+            );
+
+
+        if(target){
+
+            setTimeout(
+                captureCurrentOrder,
+                300
+            );
+
+        }
+
+    }
+);
+
+
+/* ---------- START ---------- */
+
+console.log(
+    "LIVN FINAL ACCOUNT SYSTEM READY"
+);
+
+})();
+</script>
